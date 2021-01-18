@@ -1,0 +1,10 @@
+#Dont use * or regex
+git
+.gradle
+.idea
+build
+local.properties
+content/draft
+blog.code-workspace
+blog_config.json
+git_publish_config.json

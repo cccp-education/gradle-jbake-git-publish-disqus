@@ -1,0 +1,55 @@
+== Créateur de Contenu Commun Populaire Education: cccp-education.github.io
+
+= Créer son blog personnel
+
+=== Démo
+disqus jbake-blog-demo
+url demo: https://cccp-education.github.io/jbake-blog-demo/
+url cdn: https://github.com/cccp-education/jbake-blog-demo
+url repo: git@github.com:cccp-education/jbake-blog-demo.git
+
+=== Exemple
+cccp-education.github.io[https://cccp-education.github.io]
+
+
+=== Repos
+
+url blog project: https://github.com/cccp-education/gradle-jbake-git-publish-disqus
+url blog repository: git@github.com:cccp-education/gradle-jbake-git-publish-disqus
+
+
+url demo cdn: https://github.com/cccp-education/cccp-education.github.io
+url demo repository: git@github.com:cccp-education/cccp-education.github.io.git
+
+
+=== Project stack
+
+https://docs.gradle.org/current/userguide/userguide.html[Gradle]
+ + https://github.com/ajoberstar/gradle-git-publish[GitPublish Plugin]
+ + https://pages.github.com/[Github Pages]
+ + https://jbake.org/[JBake] +
+
+
+=== Run in local mode :
+
+Just in case, you need to make the script executable, for the first time run it
+```
+chmod u+x jbake.sh;
+```
+
+Now enjoy the live local mode :
+```
+./jbake.sh
+```
+
+
+=== Deploy blog
+
+Once properties properly configured then run in terminal
+```
+./gradlew publishBlog
+```
+
+
+
+=== Comment creer mon blog a partir du projet gradle-jbake-git-publish-disqus
